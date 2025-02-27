@@ -13,10 +13,4 @@ cur1.execute("show databases")
 for base in cur1:
    print(base)
 
-# Borramos la BD y comprobamos
-
-cur1.execute("DROP DATABASE basedepruebas")
-cur1.execute("show databases")
-for base in cur1:
-    print(base)
 conn1.close()
