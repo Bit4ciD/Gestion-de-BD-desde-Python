@@ -2,12 +2,10 @@
 
 import mysql.connector
 
-# Creamos el nombre de la variable "conn1" 
-# y especificamos la conexion con la base de datos
+# Se crea la conexión con MuySQL con la variable "conn1" 
 conn1 = mysql.connector.connect(host="localhost",user="root",passwd="")
 
-# Se crea la variable del cursor cur1, que será
-# el cursor que se movera por la base de datos
+# Se crea el cursor para movernos por MySQL con la variable cur1
 cur1 = conn1.cursor()
 
 # Este comando muestra la lista de las bases de
