@@ -1,5 +1,4 @@
 # En este ejemplo se borra una BD del servidor 
-
 import mysql.connector
 
 conn1 = mysql.connector.connect(host="localhost",user="root",passwd="")

@@ -10,6 +10,10 @@ cur1 = conn1.cursor()
 
 cur1.execute("DROP DATABASE basedepruebas")
 cur1.execute("show databases")
+print("Esta es la lista de las bases de datos existentes")
+num = 0
 for base in cur1:
-    print(base)
+   num = num + 1
+   
+   print("Elemento ", num, base)
 conn1.close()
