@@ -17,4 +17,4 @@ for base in cur1:
    num = num + 1
    
    print("Elemento ", num, base)
-conn1.close( )
+conn1.close()
